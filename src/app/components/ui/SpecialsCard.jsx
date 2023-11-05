@@ -7,7 +7,7 @@ export default function SpecialsCard({ img, title, price, description }) {
     <div className="pt-2 px-1 md:px-0 md:pt-0">
       <div className="w-52 min-h-[26rem] h-full rounded-t-lg bg-[#EDEFEE]">
         <div className="b relative w-full h-2/5 rounded-t-lg overflow-hidden">
-          <Image src={`/specials/${img}`} layout="fill" objectFit="cover" alt="" />
+          <Image src={`/specials/${img}`} fill objectFit="cover" alt="" />
         </div>
         <div className="flex flex-col px-4 pt-5 gap-8">
           <div

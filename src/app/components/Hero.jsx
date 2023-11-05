@@ -29,10 +29,12 @@ export default function Hero() {
               <br /> recipes served with a modern
               <br /> twist.
             </p>
-            <div className="pt-2">
-              <Button className="bg-[#F4CE14] text-black hover:bg-yellow-500 font-bold rounded-2xl">
-                <Link href="/reservations">Reserve a Table</Link>
-              </Button>
+            <div className="pt-4">
+              <Link href="/reservations">
+                <Button className="bg-[#F4CE14] text-black hover:bg-yellow-500 font-bold rounded-2xl">
+                  Reserve a Table
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="h-80 w-72 rounded-lg relative overflow-hidden hidden sm:block">

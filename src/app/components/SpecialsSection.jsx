@@ -8,7 +8,7 @@ export default function SpecialsSection() {
   return (
     <Layout>
       <div className="flex flex-col">
-        <div className="flex flex-col justify-between items-center">
+        <div className="flex flex-col lg:flex-row justify-between items-center">
           <p className={`${Markazi.className} pb-4 text-4xl sm:text-[3.5rem]`}>
             This Weeks Specials!
           </p>
