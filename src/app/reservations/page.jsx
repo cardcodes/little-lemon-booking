@@ -1,8 +1,16 @@
+import Layout from '../shared/layout';
+
 export const metadata = {
   title: 'Little Lemon - Reservations',
   description: '',
 };
 
 export default function Reservations() {
-  return <h1>Test</h1>;
+  return (
+    <Layout>
+      <div className="">
+        <h1>Reserve A Table</h1>
+      </div>
+    </Layout>
+  );
 }

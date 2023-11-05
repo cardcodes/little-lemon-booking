@@ -7,14 +7,16 @@ import SpecialsCard from './ui/SpecialsCard';
 export default function SpecialsSection() {
   return (
     <Layout>
-      <div className="">
-        <div className="flex justify-between items-center">
-          <p className={`${Markazi.className} text-[3.5rem]`}>This Weeks Specials!</p>
+      <div className="flex flex-col">
+        <div className="flex flex-col justify-between items-center">
+          <p className={`${Markazi.className} pb-4 text-4xl sm:text-[3.5rem]`}>
+            This Weeks Specials!
+          </p>
           <Button className="bg-[#F4CE14] text-black hover:bg-yellow-500 h-14 w-48 font-bold rounded-2xl">
             Online Menu
           </Button>
         </div>
-        <div className="flex justify-between pt-8 flex-wrap">
+        <div className="flex justify-center sm:justify-between pt-8 flex-wrap px-4">
           <SpecialsCard
             img="greek-salad.jpg"
             title="Greek Salad"

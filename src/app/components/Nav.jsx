@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Nav() {
   return (
     <>
-      <nav>
+      <nav className="hidden lg:block">
         <ul className="flex gap-4 font-medium text-lg">
           <li>
             <Link href="/">Home</Link>
