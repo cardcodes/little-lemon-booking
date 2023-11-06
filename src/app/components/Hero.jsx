@@ -38,7 +38,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="h-80 w-72 rounded-lg relative overflow-hidden hidden sm:block">
-            <Image src="/hero-img.jpg" alt="" objectFit="cover" fill />
+            <Image src="/hero-img.jpg" alt="" style={{ objectFit: 'cover' }} fill />
           </div>
         </div>
       </Layout>

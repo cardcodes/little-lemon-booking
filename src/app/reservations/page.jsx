@@ -6,7 +6,7 @@ const Markazi = Markazi_Text({ weight: '500', subsets: ['latin'], display: 'swap
 
 export const metadata = {
   title: 'Little Lemon - Reservations',
-  description: '',
+  description: 'Reserve A Table At Little Lemon',
 };
 
 export default function Reservations() {

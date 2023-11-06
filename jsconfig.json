@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
       "@/components/*": ["./src/app/components/*"]

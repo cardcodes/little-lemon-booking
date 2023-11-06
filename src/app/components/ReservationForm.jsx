@@ -25,12 +25,14 @@ export default function ReservationForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="">
+    <form role="form" onSubmit={handleSubmit(onSubmit)} className="">
       <div className="pt-2">
         <label className="block text-sm font-medium pb-1" htmlFor="name">
           Name
         </label>
         <input
+          aria-required
+          id="name"
           name="name"
           className="border rounded-md w-56 h-10 px-2"
           type="text"
@@ -43,6 +45,7 @@ export default function ReservationForm() {
           Email
         </label>
         <input
+          aria-required
           name="email"
           className="border rounded-md w-56 h-10 px-2"
           type="email"
@@ -55,6 +58,7 @@ export default function ReservationForm() {
           Phone
         </label>
         <input
+          aria-required
           name="phone"
           className="border rounded-md w-56 h-10 px-2"
           type="tel"
@@ -67,6 +71,7 @@ export default function ReservationForm() {
           Guests
         </label>
         <select
+          aria-required
           name="guests"
           id="guests"
           className="border rounded-md w-56 h-10 px-2 text-sm"
@@ -88,6 +93,7 @@ export default function ReservationForm() {
           Date
         </label>
         <input
+          aria-required
           name="date"
           min="2023-11-05"
           max="2023-11-10"
@@ -102,6 +108,7 @@ export default function ReservationForm() {
           Time
         </label>
         <select
+          aria-required
           name="time"
           id="time"
           className="border rounded-md w-56 h-10 px-2 text-sm"
